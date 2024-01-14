@@ -66,3 +66,22 @@ git push origin --delete v1.7
 
 ![git image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7zIsOlQ0tppVMpDyorl2nf6Eqq3wXYx1Liw&usqp=CAU)
 
+-----------------------------------------------------------------------------------------
+
+#secret file
+
+#there are another ways to make file ignore 
+
+#if the file already checked in , you should at first make it un tracked 
+
+git rm --cashed file.txt
+
+#if you want git to make all files and directories when you make a commit in any Git repository
+add it to the file named ignore and this located inside git in these directories ~/.config/git/ignore
+
+
+#if you don't want to create file .gitignore , you can open your text editor and open file called 
+
+.git/info/exclude
+
+#and any rules you will add in it will not be checked in
