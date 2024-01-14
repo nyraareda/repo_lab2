@@ -25,7 +25,7 @@ git branch -d test
 
 #if the branch contain unmerged changes use this command
 
-git branch -D dev
+git branch -D test
 
 
 #Remove branch remotly
